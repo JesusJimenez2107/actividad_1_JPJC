@@ -1,0 +1,97 @@
+!SESSION 2025-02-20 18:00:17.264 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Lab A\Documents\GitHub\actividad_1_JPJC
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-20 18:00:20.591
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-20 18:00:21.720
+!MESSAGE Logback config file: C:\Users\Lab A\Documents\GitHub\actividad_1_JPJC\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-20 18:00:27.061
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lab A'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-02-20 18:04:08.781
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:211)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:305)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:291)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2471)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: OK
+Contains: C:\Users\Lab A\Documents\GitHub\actividad_1_JPJC overlaps the workspace location: C:\Users\Lab A\Documents\GitHub\actividad_1_JPJC
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-20 18:04:08.782
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2025-02-20 18:04:08.782
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2025-02-20 18:04:08.782
+!MESSAGE C:\Users\Lab A\Documents\GitHub\actividad_1_JPJC overlaps the workspace location: C:\Users\Lab A\Documents\GitHub\actividad_1_JPJC
+
+!ENTRY org.eclipse.egit.core 4 0 2025-02-20 18:37:58.309
+!MESSAGE An exception occurred during push on URI https://github.com/JesusJimenez2107/actividad_1_JPJC: https://github.com/JesusJimenez2107/actividad_1_JPJC: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/JesusJimenez2107/actividad_1_JPJC: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1555)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-02-20 18:37:58.310
+!MESSAGE Can't connect to any repository: https://github.com/JesusJimenez2107/actividad_1_JPJC (https://github.com/JesusJimenez2107/actividad_1_JPJC: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-02-20 18:41:13.749
+!MESSAGE An exception occurred during push on URI https://github.com/JesusJimenez2107/actividad_1_JPJC: https://github.com/JesusJimenez2107/actividad_1_JPJC: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/JesusJimenez2107/actividad_1_JPJC: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1555)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-02-20 18:41:13.750
+!MESSAGE Can't connect to any repository: https://github.com/JesusJimenez2107/actividad_1_JPJC (https://github.com/JesusJimenez2107/actividad_1_JPJC: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-02-20 18:45:07.796
+!MESSAGE An exception occurred during push on URI https://github.com/JesusJimenez2107/actividad_1_JPJC: https://github.com/JesusJimenez2107/actividad_1_JPJC: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/JesusJimenez2107/actividad_1_JPJC: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1555)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-02-20 18:45:07.796
+!MESSAGE Can't connect to any repository: https://github.com/JesusJimenez2107/actividad_1_JPJC (https://github.com/JesusJimenez2107/actividad_1_JPJC: not authorized)
