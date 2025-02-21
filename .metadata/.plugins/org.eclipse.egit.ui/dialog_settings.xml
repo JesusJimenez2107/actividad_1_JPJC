@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\Lab A\Documents\GitHub\actividad_1_JPJC\.git"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/JesusJimenez2107/actividad_1_JPJC"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Acosta-S &lt;jjimenez_23@alu.uabcs.mx&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Acosta-S &lt;jjimenez_23@alu.uabcs.mx&gt;"/>
+	</list>
+	<section name="GitImportWizard">
+		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<section name="GitImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="706"/>
+			<item key="DIALOG_Y_ORIGIN" value="191"/>
+			<item key="DIALOG_WIDTH" value="536"/>
+			<item key="DIALOG_HEIGHT" value="550"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Lab A\git\actividad_1_JPJC\.git">
+			<item value="false"/>
+			<item value="Acosta-S &lt;jjimenez_23@alu.uabcs.mx&gt;"/>
+			<item value="# WARNING: head commit changed in the meantime&#x0D;&#x0A;&#x0D;&#x0A;Tabla"/>
+			<item value="Acosta-S &lt;jjimenez_23@alu.uabcs.mx&gt;"/>
+			<item value="e9c18cc7d11840f9382203b71f7bddc157df0f7d"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+		<list key="C:\Users\Lab A\Documents\GitHub\actividad_1_JPJC\.git">
+			<item value="false"/>
+			<item value="Acosta-S &lt;jjimenez_23@alu.uabcs.mx&gt;"/>
+			<item value="Tabla final 1"/>
+			<item value="Acosta-S &lt;jjimenez_23@alu.uabcs.mx&gt;"/>
+			<item value="d425ad3045ff0ebe0b814c3f3e659ee1dbfd4872"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+	</section>
+</section>
